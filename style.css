@@ -1,0 +1,36 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #000;
+  background: #fff;
+}
+header {
+  text-align: center;
+  padding: 30px 10px;
+}
+.logo-top {
+  width: 250px;
+}
+.logo-bottom {
+  width: 90px;
+  opacity: 0.7;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav a:hover, nav a.active {
+  text-decoration: underline;
+}
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+footer {
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 20px;
+}
